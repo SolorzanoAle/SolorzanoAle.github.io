@@ -1,0 +1,25 @@
+img{
+    width:auto;
+    height: 400px;
+    
+    margin-top: 100px;
+}
+
+table{
+    margin-top: 10px;
+    text-align: center;
+    border-spacing: 15px;
+    border: 1px solid black;
+    }
+.tabla2{
+    margin-left: 300px;
+}
+td{
+    border: 1px solid black;
+  
+}
+#ima{
+  
+    transform: rotate(90deg);
+    image-orientation:from-image;
+}

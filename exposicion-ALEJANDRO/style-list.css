@@ -1,0 +1,45 @@
+pre{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+ol{
+    list-style: outside;
+}
+code{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.lista1{
+    list-style: square inside ;
+}
+.lista2{
+    list-style: decimal-leading-zero ;
+}
+.lista3{
+    list-style: none outside;
+}
+.code1 pre{
+    margin-top: -400px;
+    margin-left: 500px;
+}
+.bajar{
+    margin-top: 100px;
+}
+table{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+.tabla2{
+    margin-left: 300px;
+}
+td{
+    
+    border: 1px solid black;
+}

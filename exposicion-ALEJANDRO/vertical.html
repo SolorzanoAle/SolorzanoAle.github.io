@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="estilos-vertical.css">
+    <title>vertical</title>
+</head>
+<body>
+  <header>
+    <h1>VERTICAL-ALIGN</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="">PROPIEDADES</a>
+        <ul class="menu2">
+          <li><a href="index-border.html">BORDER-SPACING</a></li>
+          <li><a href="text-align.html">TEXT-ALIGN</a></li>
+          <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+          <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+          <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+          <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+          <li><a href="list-style.html">LIST-STYLE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+          <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+        
+        </ul>
+        <li>
+          <a href="">BOOTSTRAP</a>
+          <ul class="menu2">
+            <li><a href="container.html"> CONTAINER</a></li>
+            <li><a href="columns.html">COLUMNS</a></li>
+          </ul>
+        </li>  
+        <li>
+          <a href="">TAREA</a>
+          <ul class="menu2">
+            <li><a href="tarea.html">TAREA
+            </a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>  
+    </nav>
+        <hr>
+        <section>
+          <h2>DESCRIPCION</h2>
+          <p>La propiedad VERTICAL-ALIGN establece la alineación vertical de un cuadro en línea, de bloque en línea o de celda de tabla</p>
+          <h3>La propiedad de alineación vertical se puede utilizar en dos contextos:</h3>
+          <ol>
+            <li>Para alinear verticalmente el cuadro de un elemento en línea dentro de su cuadro de línea contenedor. Por ejemplo, podría usarse para colocar una imagen en posición vertical en una línea de texto .</li>
+            <li>Para alinear verticalmente el contenido de una celda en una tabla .</li>
+          </ol>
+          <hr>
+          <h2>VALORES QUE PUEDE RECIBIR</h2>
+          <p>Esta propiedad puede recibir valores como <b> baseline,sub,super,text-top,etc</b> que pronto mencionaremos lo que hacen y tambien pueden recibir valores numericos en <b>px,%,em</b> para acomodar el texto al gusto.</p>
+          <table>
+            <tr>
+              <th>ATRIBUTO</th>
+              <th>CARACTERISTICAS</th>
+            </tr>
+            <tr>
+              <td class="baseline">BASELINE</td>
+              <td>Alinea la línea base del elemento con la línea base de su padre. </td>
+            </tr>
+            <tr>
+              <td>SUB</td>
+              <td>Alinea la línea base del elemento con la línea base del subíndice de su padre.</td>
+            </tr>
+            <tr>
+              <td>SUPER</td>
+              <td>Alinea la línea de base del elemento con la línea de base en superíndice de su padre.</td>
+            </tr>
+            <tr>
+              <td>TEXT-TOP</td>
+              <td>Alinea la parte superior del elemento con la parte superior de la fuente del elemento principal.</td>
+            </tr>
+            <tr>
+              <td>TEXT-BOTTOM</td>
+              <td>Alinea la parte inferior del elemento con la parte inferior de la fuente del elemento principal.</td>
+            </tr>
+            <tr>
+              <td>MIDDLE</td>
+              <td>Alinea la mitad del elemento con la línea de base más la mitad de la altura x del padre.</td>
+            </tr>
+            <tr>
+              <td>LENGHT</td>
+              <td>Alinea la línea de base del elemento a la longitud dada por encima de la línea de base de su padre. Se permite un valor negativo.</td>
+            </tr>
+            <tr>
+              <td>PERCENTAGE</td>
+              <td>Alinea la línea base del elemento con el porcentaje dado por encima de la línea base de su padre, siendo el valor un porcentaje de la line-heightpropiedad. Se permite un valor negativo.</td>
+            </tr>
+
+          </table>
+          <hr>
+          <h2>EJEMPLO CON TABLA</h2>
+          <table >
+            <tr>
+              <td class="baseline" >baseline</td>
+              <td class="top">top</td>
+              <td class="middle" >middle</td>
+              <td class="bottom" >bottom</td>
+              <td>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, architecto possimus praesentium cumque cum dolorum accusantium, sed consequatur iste nihil id recusandae. Alias quidem amet repellat sequi a dolorum illo.
+               
+              </td>
+            </tr>
+          </table>
+          <code>
+            <pre>
+              .baseline{
+                vertical-align: baseline
+            }
+            .top{
+                vertical-align: top
+            }
+            .middle{
+                vertical-align: middle
+            }
+            .bottom{
+                vertical-align: bottom
+            }
+            </pre>
+          </code>
+          <hr>
+          <h2>EJEMPLO CON IMAGEN</h2>
+          <p>Alinearle el texto a una imagen</p>
+          <b>TOP:</b>
+          <div>
+            <p>lorem<img class="top2" src="robot.svg.jpg" alt="robot">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <code>
+              <pre>
+                .top2{
+                  vertical-align: text-top;
+              }
+              </pre>
+            </code>
+          </div>
+          <b>MIDDLE:</b>
+          <div>
+            <p>lorem<img class="middle2" src="robot.svg.jpg" alt="robot">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <code>
+              <pre>
+                .middle2{
+                  vertical-align: middle;
+              }
+              </pre>
+            </code>
+          </div>
+          <b>BOTTOM:</b>
+          <div>
+            <p>lorem<img class="bottom" src="robot.svg.jpg" alt="robot">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Aunque por defecto el texto cuando esta en medio de una imagen se acomoda en la parte inferior.</p>
+          </div>
+          <hr>
+          <h2>EJEMPLO CON MEDIDAS DE PX,% Y EM</h2>
+          <p style="vertical-align: 0.2em"> 0.2em:<img class="ima2" style="vertical-align: 0.2em" src="robot.svg.jpg"/>ejemplo</p>
+          <p style="vertical-align: -1em">  -1em:<img class="ima2" style="vertical-align: -1em" src="robot.svg.jpg"/>ejemplo</p>
+          <p style="vertical-align: 20%">  20%:<img class="ima2" style="vertical-align: 20%" src="robot.svg.jpg"/>ejemplo</p>
+          <p style="vertical-align: -100%">  -100%:<img class="ima2" style="vertical-align: -100%" src="robot.svg.jpg"/>ejemplo</p>
+          <p ><img src="cap.png" alt="cap" style="vertical-align: text-bottom" >PODEMOS OBSERVAR QUE PODEMOS APLICAR UN ALINEAMIENTO VERTiCAl A UNA IMAGEN A UN TEXTO O VICERVERSA.</p>
+          <hr>
+          <h3>HEREDADO:</h3><p>No</p>
+          <hr>
+          <h2>COMPATIBLIDAD CON NAVEGADORES</h2>
+          <table>
+            <tr>
+              <th>NAVEGADOR</th>
+              <th>VERSION</th>
+            </tr>
+            <tr>
+              <td>CHROME</td>
+              <TD>1</TD>
+            </tr>
+            <tr>
+              <td>EDGE</td>
+              <TD>12</TD>
+            </tr>
+            <tr>
+              <td>FIREFOX</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>SAFARI</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </section>
+</body>
+</html>

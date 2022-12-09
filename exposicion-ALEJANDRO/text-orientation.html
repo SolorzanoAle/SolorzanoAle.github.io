@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="estilos-orientation.css">
+    <title>text-orientation</title>
+</head>
+<body>
+  <header>
+    <h1>TEXT-ORIENTATION</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="">PROPIEDADES</a>
+        <ul class="menu2">
+          <li><a href="index-border.html">BORDER-SPACING</a></li>
+          <li><a href="text-align.html">TEXT-ALIGN</a></li>
+          <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+          <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+          <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+          <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+          <li><a href="list-style.html">LIST-STYLE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+          <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+        
+        </ul>
+        <li>
+          <a href="">BOOTSTRAP</a>
+          <ul class="menu2">
+            <li><a href="container.html"> CONTAINER</a></li>
+            <li><a href="columns.html">COLUMNS</a></li>
+          </ul>
+        </li>  
+        <li>
+          <a href="">TAREA</a>
+          <ul class="menu2">
+            <li><a href="tarea.html">TAREA
+            </a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>  
+    </nav>
+      <hr> 
+      <section>
+          <h2>DESCRIPCION:</h2>
+          <p>La propiedad CSS establece la orientación de los caracteres de texto en una línea. Solo afecta al texto en modo vertical (cuando no lo es ). Es útil para controlar la visualización de idiomas que usan escritura vertical y también para hacer encabezados de tablas verticales</p>
+          <hr>
+          <h2>EJEMPLOS</h2>
+          <div  class="ejem1">
+            <h1>Lorem ipsum</h1>
+           
+          </div>
+          <hr>
+          <code>
+            <pre class="pre1">
+              <b>CODIGO</b>
+              .ejem1 {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+            }
+            </pre>
+          </code>
+          <div  class="ejem2">
+            <p >Lorem ipsum</p>
+            
+          </div>
+          <code>
+            
+            <pre class="pre2">
+              <b>CODIGO</b>
+              .ejem2{
+                writing-mode:vertical-lr;
+                text-orientation: sideways;
+                
+                
+            }
+            </pre>
+          </code>
+          <div  class="ejem3">
+            <p >Lorem ipsum</p>
+            
+          </div>
+          <code>
+            <pre class="pre3">
+              <b>CODIGO</b>
+              .ejem3{
+                writing-mode:horizontal-tb;
+                text-orientation: upright;
+               
+            }
+            </pre>
+          </code>
+          <div class="N">
+            <h2>NOTA:</h2>
+            <p>Para que la propiedad <b>TEXT-ORIENTATION</b> se ejecute la propiedad <b>writing-mode</b> debe de estar en modo VERTICAL</p>
+            <p>Todo texto que escribas por defecto esta en horizontal.</p>
+            <hr>
+            <h2>PARAMETROS QUE PUEDE RECIBIR</h2>
+            <table>
+              <tr>
+                <th>PARAMETRO</th>
+                <th>DESCRIPCION</th>
+              </tr>
+              <tr>
+                <td>MIXED</td>
+                <td>Gira los caracteres de los guiones horizontales 90° en el sentido de las agujas del reloj. Presenta los caracteres de los guiones verticales de forma natural. Valor por defecto.</td>
+              </tr>
+              <tr>
+                <td>UPRIGHT</td>
+                <td>Distribuye los caracteres de las escrituras horizontales de forma natural (vertical), así como los glifos de las escrituras verticales. </td>
+              </tr>
+              <tr>
+                <td>SIDEWAYS</td>
+                <td>Distribuye los caracteres de las escrituras horizontales de forma natural (vertical), así como los glifos de las escrituras verticales. </td>
+              </tr>
+              <tr>
+                <td>SIDEWAYS-RIGHT</td>
+                <td>Se mantiene un alias para sidewaysfines de compatibilidad.</td>
+              </tr>
+            </table>
+            <h2>Se aplica a:</h2>
+            <p>	todos los elementos, excepto los grupos de filas, filas, grupos de columnas y columnas de la tabla</p>
+            <h2>HEREDADA: </h2><p>Si</p>
+            <hr>
+            <h2>COMPTABILIDAD CON NAVEGADORES</h2>
+            <table>
+              <tr>
+                <th>NAVEGADOR</th>
+                <th>VERSION COMPATIBLE</th>
+              </tr>
+              <tr>
+                <td>chrome</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td>safari</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>edge</td>
+                <td>79</td>
+              </tr>
+              <tr>
+                <td>firefox</td>
+                <td>41</td>
+              </tr>
+            </table>
+            <p>El atributo <b>SIDEWAYS</b> solo funciona en los navegadores:</p>
+            <ol>
+              <li>firefox </li>
+              <li>safari</li>
+            </ol>
+            <p>En los navegadores restantes ya no le dan soporte.</p>
+          </div>
+      </section>
+
+</body>
+</html>

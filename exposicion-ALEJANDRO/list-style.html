@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style-list.css">
+    <title>Style list</title>
+</head>
+<body>
+  <header>
+    <h1>LIST-STYLE</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="">PROPIEDADES</a>
+        <ul class="menu2">
+          <li><a href="index-border.html">BORDER-SPACING</a></li>
+          <li><a href="text-align.html">TEXT-ALIGN</a></li>
+          <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+          <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+          <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+          <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+          <li><a href="list-style.html">LIST-STYLE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+          <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+        
+        </ul>
+        <li>
+          <a href="">BOOTSTRAP</a>
+          <ul class="menu2">
+            <li><a href="container.html"> CONTAINER</a></li>
+            <li><a href="columns.html">COLUMNS</a></li>
+          </ul>
+        </li>  
+        <li>
+          <a href="">TAREA</a>
+          <ul class="menu2">
+            <li><a href="tarea.html">TAREA
+            </a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>  
+    </nav>
+        <hr>
+        <section>
+          <h2>DESCRIPCION</h2>
+          <p>La propiedad abreviada <b>list-style</b> le permite establecer todas las propiedades de estilo de lista a la vez.</p>
+          <p> Debido a que esta propiedad se hereda, se puede establecer en un elemento principal <b>(normalmente  ol o ul )</b> para que el mismo estilo de lista se aplique a todos los elementos que contiene.</p>
+          <pre>
+            Esta propiedad es una abreviatura de las siguientes propiedades CSS:
+
+            list-style-image
+            list-style-position
+            list-style-type
+          </pre>
+          <hr>
+          <h3>HEREDA:</h3><p>Si</p>
+          <h3>Valores iniciales</h3>
+          <ul>
+            <li>list-style-image= Disc</li>
+            <li>list-style-position= outside</li>
+            <li>list-style-type= none</li>
+          </ul>
+          <hr>
+          <p><b>LIST-STYLE</b> esta propiedad es una abreviatura de otras 3 propiedades y recibe los parametros en el orden que sea.</p>
+          <hr>
+          <h2>EJEMPLOS</h2>
+          <code>
+          <ol style="list-style: georgian outside;">
+           <li> Aca cambiamos el tipo de viñeta</li>
+            list-style: square;
+            <li>Aca asignamos como viñeta una imagen</li>
+            list-style: url("../ima-ina.jpg");
+            <li>Aca asignamos la posicion que tendra nuestra lista</li>
+            list-style: inside;
+            <li>Aca asignamos el tipo de viñeta que queremos que tenga la lista y la posicion. </li>
+            list-style: georgian inside;
+            <li>Aca asignamos dos tipos de viñetas ya que si no encuentra la imagen se pondra la viñeta <b>lower-roman</b></li>
+            list-style: lower-roman url("../img/shape.png") outside;
+          </ol>
+          </code>
+          <hr>
+          <h2>EJEMPLOS</h2>
+          <h4>lista1</h4>
+          <ol class="lista1">
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+          </ol>
+          <h4>lista2</h4>
+          <ol class="lista2">
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+          </ol>
+          <h4>lista3</h4>
+          <ul class="lista3">
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+            <li>ejemplo</li>
+          </ul>
+          <code class="code1">
+            <pre>
+              .lista1{
+                list-style: square inside ;
+            }
+
+
+            .lista2{
+                list-style: decimal-leading-zero ;
+            }
+
+
+            .lista3{
+                list-style: none outside;
+            }
+            </pre>
+          </code>
+          <div class="bajar">
+            <hr>
+            <h2>TIPOS DE VIÑETAS</h2>
+            <p>disc | circle | square | decimal | decimal-leading-zero | lower-roman | upper-roman | lower-greek | lower-latin | upper-latin | armenian | georgian | lower-alpha | upper-alpha | none |</p>
+            <b>Se aplica solo a listas</b>
+            <hr>
+            <h2>NAVEGADORES</h2>
+            <p>Los números de la tabla especifican la primera versión del navegador que es totalmente compatible con la propiedad.</p>
+                <table class="tabla2">
+                    <tr>
+                        <th>NAVEGADOR</th>
+                        <th>VERSION</th>
+                    </tr>
+                    <tr>
+                        <td>CHROME</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>EDGE</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>FIREFOX</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>SAFARI</td>
+                        <td>1</td>
+                    </tr>
+
+                </table>
+          </div>
+        </section>
+</body>
+</html>

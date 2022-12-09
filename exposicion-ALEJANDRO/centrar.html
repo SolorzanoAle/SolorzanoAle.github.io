@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="centrar.css">
+    <title>centrar imagen</title>
+</head>
+<body>
+  <header>
+    <h1>CENTRAR-IMAGEN</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="">PROPIEDADES</a>
+        <ul class="menu2">
+          <li><a href="index-border.html">BORDER-SPACING</a></li>
+          <li><a href="text-align.html">TEXT-ALIGN</a></li>
+          <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+          <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+          <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+          <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+          <li><a href="list-style.html">LIST-STYLE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+          <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+        
+        </ul>
+        <li>
+          <a href="">BOOTSTRAP</a>
+          <ul class="menu2">
+            <li><a href="container.html"> CONTAINER</a></li>
+            <li><a href="columns.html">COLUMNS</a></li>
+          </ul>
+        </li>  
+        <li>
+          <a href="">TAREA</a>
+          <ul class="menu2">
+            <li><a href="tarea.html">TAREA
+            </a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>  
+    </nav>
+        <hr>
+        <section>
+          <h2>DESCRIPCION</h2>
+          <p>Para centrar una imagen en html con CSS hay que recordar que la etiqueta IMG es una etiqueta en linea</p>
+          <p>Hay varias formas de centrar una imagen en la pantalla la primera de ellas es:</p>
+          <p>Añadiendo la etiqueta IMG a una etiqueta en bloque como la etiqueta <b>p</b></p>
+          <hr>
+          <h3>EJEMPLO</h3>
+          <code>
+            <pre>
+              p{
+                text-align: center;
+                
+            }
+            <img src="cod.png" alt="">
+            </pre>
+          </code>
+          <p><img src="ina.jpeg" alt=""></p>
+          <hr>
+          <p>Si la etiqueta que en la que añadistes la imagen no es una etiqueta en bloque se deberia de usar la propiedad <b>DISPLAY:BLOCK</b></p>
+          <p>Pero de igual manera usamos la propiedad <b>text-align</b> como en el siguiente ejemplo</p>
+          <h3>EJEMPLO</h3>
+          <code>
+            <pre>
+              span{
+                display: block;
+                text-align: center;
+            }
+            </pre>
+          </code>
+          <img src="cod-fresas.png" alt="">
+          <span >
+            <img  src="fresas.jpeg" alt="fresas">
+          </span>  
+          <hr>
+          <p>Otra forma es a la etiqueta <b>IMG</b> pasar a una etiqueta en bloque y ponerle un <b> margin</b> en auto</p>
+          <h3>EJEMPLO</h3>
+          <code>
+            <pre>
+              .FRESAS{
+                display: block;
+                margin: auto;
+            }
+            </pre>
+          </code>
+          <img src="cod-2.png" alt="">
+          <img class="FRESAS" src="fresas.jpeg" alt="fresas">
+          <hr>
+          <p>Tambien se puede usar la etiqueta CENTER de HTML </p>
+          <b>PERO ESTA ESCOMPLETAMENTE OBSOLETA</b>
+          <h3>EJEMPLO</h3>
+
+          <center>
+            <img  src="cod-3.png" alt="fresas">
+          </center>
+          <hr>
+
+        
+        </section>
+</body>
+</html>

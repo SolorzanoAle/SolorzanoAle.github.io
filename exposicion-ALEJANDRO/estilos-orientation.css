@@ -1,0 +1,41 @@
+.ejem1 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.ejem2{
+    writing-mode:vertical-lr;
+    text-orientation: sideways;
+    margin-left: 300px;
+    margin-top: -150px;
+    
+}
+.ejem3{
+    writing-mode:horizontal-tb;
+    text-orientation: upright;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.pre1{
+    margin-top: -200px;
+}
+.pre2{
+    margin-top: -100px;
+    margin-left: 300px;
+}
+.pre3{
+    margin-left: 750px;
+    margin-top: -60px;
+}
+.N{
+    margin-top: 175px;
+}
+table th{
+    border: 1px solid red;
+    text-align: center;
+    
+}
+td{
+    border: 1px solid red;
+    text-align: center;
+    
+}

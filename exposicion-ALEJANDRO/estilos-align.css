@@ -1,0 +1,24 @@
+.ejem1{
+    text-align: center;
+}
+.ejem2{
+    text-align: center;
+    margin-right: 100px;
+}
+.ejem3{
+    text-align: right;
+}
+.ejem4{
+    text-align:left;
+}
+td,th  {
+    border: 1px solid black;
+}
+table{
+    margin-top: 10px;
+    text-align: center;
+    }
+.tabla2{
+    margin-left: 300px;
+}
+

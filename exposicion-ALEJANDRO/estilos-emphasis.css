@@ -1,0 +1,45 @@
+h2 {
+    text-emphasis: #d55 dot ;
+
+  }
+  .ul li{
+    line-height: 2;
+  }
+  .EJEM{
+    display: block;
+    float: left;
+    margin-top: -245px;
+    margin-left: 200px;
+    line-height: 2;
+  }
+.e1{
+    text-emphasis: red 'filled';
+}
+.e2{
+    text-emphasis: red open;
+}
+.e3{
+    text-emphasis: red circle;
+}
+.e4{
+    text-emphasis: red double-circle;
+}
+.e5{
+    text-emphasis: red sesame;
+}
+.e6{
+    text-emphasis: red triangle;
+}
+.e7{
+    text-emphasis: red dot;
+}
+.e8{
+    font-size: 25px;
+    text-emphasis: blue 'X';
+}
+code{
+    margin-left: -100px;
+}
+td,th  {
+    border: 1px solid black;
+}

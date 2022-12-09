@@ -1,0 +1,42 @@
+nav{
+    background-color:cornflowerblue;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;  
+ }
+ .menu > li:hover {
+    background-color:aquamarine;
+    color: black;
+ 
+ }
+ .menu2{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 220px;
+    background-color:aquamarine;
+ }
+ .menu li:hover .menu2{
+  display: block;
+ }
+ .menu2 li:hover{
+    background-color: antiquewhite;
+ }
+ a{
+    text-decoration: none;
+ }
+ header{
+    text-align: center;
+    background-color: aqua;
+  }

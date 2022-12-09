@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos-align.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>TEXT-ALIGN</title>
+</head>
+<body>
+    <header>
+        <h1>TEXT-ALIGN</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+          <li>
+            <a href="">PROPIEDADES</a>
+            <ul class="menu2">
+              <li><a href="index-border.html">BORDER-SPACING</a></li>
+              <li><a href="text-align.html">TEXT-ALIGN</a></li>
+              <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+              <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+              <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+              <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+              <li><a href="list-style.html">LIST-STYLE</a></li>
+              <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+              <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+              <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+              <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+            
+            </ul>
+            <li>
+              <a href="">BOOTSTRAP</a>
+              <ul class="menu2">
+                <li><a href="container.html"> CONTAINER</a></li>
+                <li><a href="columns.html">COLUMNS</a></li>
+              </ul>
+            </li>  
+            <li>
+              <a href="">TAREA</a>
+              <ul class="menu2">
+                <li><a href="tarea.html">TAREA
+                </a></li>
+              </ul>
+            </li>
+          </li>
+        </ul>  
+        </nav>
+        <hr>
+    <section>
+        <h2>DESCRIPCION</h2>
+        <p>Se utiliza para la alineacion horizontal de un elemento</p>
+        <p>Se le puede aplica a una etiqueta que contenga texto si esta etiqueta es padre hereda la misma alineacion los hijos</p>
+        <p>TEXT-align se le puede aplicar a cualquier etiqueta de BLOQUE</p>
+        <hr>
+        <div class="ejem1">
+            <h2>EJEMPLO 1</h2>
+            <p>A todo el texto que contenga el contenedor DIV se le hara una alineacion central</p>
+    
+            <h2>DESCRIPCION</h2>
+            <p>Se utiliza para la alineacion horizontal de un elemento</p>
+            <p>Se le puede aplica a una etiqueta que contenga texto</p>
+            <code>
+                <pre class="ejem2">
+                    <b>CODIGO</b>
+                    .ejem1{
+                        text-align: center;
+                    }
+                </pre>
+            </code>
+        </div>
+        <div class="ejem3">
+            <h2>EJEMPLO 2</h2>
+            <p>A todo texto que contenga la etiqueta DIV se le hara una alineacion a la derecha</p>
+    
+            <h2>DESCRIPCION</h2>
+            <p>Se utiliza para la alineacion horizontal de un elemento</p>
+            <p>Se le puede aplica a una etiqueta que contenga texto</p>
+            <code>
+                <pre>
+                    <b>CODIGO</b>
+                    .ejem3{
+                        text-align: right;
+                    }
+                </pre>
+            </code>
+        </div>
+        <div class="ejem4">
+            <h2>EJEMPLO3</h2>
+            <p>A todo texto que contenga la etiqeuta DIV se le hara una alineacion a la izq</p>
+                
+            <h2>DESCRIPCION</h2>
+            <p>Se utiliza para la alineacion horizontal de un elemento</p>
+            <p>Se le puede aplica a una etiqueta que contenga texto</p>
+            <code>
+            <pre>
+                <b>CODIGO</b>
+                .ejem4{
+                    text-align:left;
+                }
+            </pre>
+            </code>
+        </div>
+        <hr>
+        <div>
+            <h2>SINTAXIS Y VALORES QUE RECIBE</h2>
+            <p><b>IMPORTANTE </b>text-align solo recibe un valor</p>
+            <code><b>text-align: left|right|center|justify|initial|inherit;</b></code>
+            <table>
+                <tr>
+                    <th>VALOR</th>
+                    <Th>DESCRIPCION</Th>
+                </tr>
+                <TR>
+                    <td>LEFT</td>
+                    <td>alinea el texto a la izquierda</td>
+                </TR>
+                <TR>
+                    <td>RIGHT</td>
+                    <td>alinea el texto a la derecha</td>
+                </TR>
+                <TR>
+                    <td>CENTER</td>
+                    <td>alinea el texto centrado</td>
+                </TR>
+                <TR>
+                    <td>JUSTIFY</td>
+                    <td>Estira las líneas para que cada línea tenga el mismo ancho (como en periódicos y revistas)</td>
+                </TR>
+                <TR>
+                    <td>INITIAL</td>
+                    <td>
+                        Establece esta propiedad en su valor predeterminado</td>
+                </TR>
+                <TR>
+                    <td>INHERIT</td>
+                    <td>hereda esta propiedad del padre</td>
+                </TR>
+            </table>
+            <p >Aca en esta tabla podemos observar que estamos aplicando una alineacion al texto centrada.</p>
+            <p>A todo texto de una etiqueta se le puede agregar la propiedad text-align</p>
+            <hr>
+            <div>
+                <h2>NAVEGADORES</h2>
+                <p>Los números de la tabla especifican la primera versión del navegador que es totalmente compatible con la propiedad.</p>
+                <table class="tabla2">
+                    <tr>
+                        <th>NAVEGADOR</th>
+                        <th>VERSION</th>
+                    </tr>
+                    <tr>
+                        <td>CHROME</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>EDGE</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>FIREFOX</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>SAFARI</td>
+                        <td>1</td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

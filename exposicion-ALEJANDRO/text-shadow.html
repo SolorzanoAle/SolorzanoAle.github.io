@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="estilos-shadow.css">
+    <title>shadow</title>
+</head>
+<body>
+  <header>
+    <h1>TEXT-SHADOW</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="">PROPIEDADES</a>
+        <ul class="menu2">
+          <li><a href="index-border.html">BORDER-SPACING</a></li>
+          <li><a href="text-align.html">TEXT-ALIGN</a></li>
+          <li><a href="text-emphasis.html">TEXT-EMPAHSIS</a></li>
+          <li><a href="text-orientation.html">TEXT-ORIENTATION</a></li>
+          <li><a href="text-shadow.html">TEXT-SHADOW</a></li>
+          <li><a href="vertical.html">VERTICAL-ALIGN</a></li>
+          <li><a href="list-style.html">LIST-STYLE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-IMAGE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-TYPE</a></li>
+          <li><a href="list-style.html">LIST-STYLE-POSITION</a></li>
+          <li><a href="centrar.html">CENTRAR IMAGEN</a></li>
+        
+        </ul>
+        <li>
+          <a href="">BOOTSTRAP</a>
+          <ul class="menu2">
+            <li><a href="container.html"> CONTAINER</a></li>
+            <li><a href="columns.html">COLUMNS</a></li>
+          </ul>
+        </li>  
+        <li>
+          <a href="">TAREA</a>
+          <ul class="menu2">
+            <li><a href="tarea.html">TAREA
+            </a></li>
+          </ul>
+        </li>
+      </li>
+    </ul>  
+    </nav>
+        <hr>
+        <section>
+          <h2>DESCRIPCION</h2>
+          <p>La propiedad  text-shadow agrega sombras al texto. <b> Acepta una lista de sombras separadas por comas</b> para aplicar al texto y cualquiera de sus archivos decorations. Cada sombra se describe mediante una combinación de compensaciones X e Y del elemento, el radio de desenfoque y el color.</p>
+          <p>Esta propiedad se especifica como una lista de sombras separadas por comas.
+
+            Cada sombra se especifica como dos o tres length valores, seguido opcionalmente por un color valor. Los dos primeros length valores son los valores offset-x  y offset-y. El tercer valor, opcional, length es el blur-radius. El color valor es el color de la sombra.</p>
+          <hr>
+          <h2>VALORES</h2>
+          <h3>COLOR</h3>
+          <p>Opcional. El color de la sombra. Se puede especificar antes o después de los valores de compensación. Si no se especifica, el valor del color se deja en manos del agente de usuario, por lo que cuando se desea coherencia entre navegadores, debe definirlo explícitamente.</p>
+          <h3>offset-x y offset-y</h3>  
+          <p>Requerido. Estos valores especifican la distancia de la sombra desde el texto.</p>
+          <p><b> offset-x </b> especifica la distancia horizontal; un valor negativo coloca la sombra a la izquierda del texto.</p>
+          <p><b> offset-y</b> especifica la distancia vertical; un valor negativo coloca la sombra sobre el texto. </p>
+          <p> Si ambos valores son 0, la sombra se coloca directamente detrás del texto, aunque puede ser parcialmente visible debido al efecto de <b> blur-radius.</b></p>
+          <h3>blur-radius</h3>
+          <p> Cuanto mayor sea el valor, mayor será el desenfoque; la sombra se vuelve más ancha y más clara. Si no se especifica, el valor predeterminado es 0.</p>
+          <hr>
+          <h2>EJEMPLOS</h2>
+          <h3>LISTA DE SOMBRAS SEPARADAS POR COMA</h3>
+          <code>
+            <pre>
+              <b>CODIGO: </b>
+               text-shadow: 1px 1px 20px black, 0 0 1em blue, 0 0 0.2em blue;
+               1px:distancia-horizontal
+               1px:distancia-vertical
+               20px:desenfoque-sombre
+               COLOR black: recordemso que el color puede ir de primero o de ultimo
+            </pre>
+          </code>
+          <p class="sha">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem a distinctio maiores delectus amet assumenda? Praesentium nostrum dolorem, excepturi a vitae repellendus numquam? Alias animi, fuga repudiandae illum recusandae tenetur.
+          </p>
+          <p>Cuando se da más de una sombra, las sombras se aplican de adelante hacia atrás, con la primera sombra especificada en la parte superior.</p>
+          <h3>SOMBRA SIMPLE</h3>
+          <code>
+            <p>
+              <b>CODIGO:</b>
+              text-shadow: red 0 -2px;
+            </p>
+          </code>
+          <p class="sha2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur possimus recusandae quo vero quos nisi officiis necessitatibus culpa, quia ratione fugiat unde porro blanditiis pariatur rerum. Modi voluptate quidem soluta!
+          </p>
+          <hr>
+          <h3>HEREDADO</h3>
+          <p>Si</p>
+          <h3>RECIBE 3 VALORES</h3>
+          <p>un color más tres longitudes absolutas</p>
+          <H4>SE LE APLICA A TEXTOS</H4>
+          <hr>
+          <h2>NAVEGADORES</h2>
+          <table>
+            <tr>
+              <th>NAVEGADOR</th>
+              <th>VERSION</th>
+            </tr>
+            <tr>
+              <td>CHROME</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>EDGE</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>FIREFOX</td>
+              <td>3.5</td>
+            </tr>
+            <TR>
+              <td>SAFARI</td>
+              <td>1.1</td>
+            </TR>
+          </table>
+         </section>
+</body>
+</html>

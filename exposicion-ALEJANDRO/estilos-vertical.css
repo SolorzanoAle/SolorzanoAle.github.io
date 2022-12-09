@@ -1,0 +1,49 @@
+table{
+    border: 1px solid black;
+    border-spacing: 10px;
+
+}
+td{
+    border: 1px solid black;
+    padding: 0.5em;
+}
+th{
+    text-align: center;
+}
+.baseline{
+    vertical-align: baseline
+}
+.top{
+    vertical-align: top
+}
+.middle{
+    vertical-align: middle
+}
+.bottom{
+    vertical-align: bottom
+}
+code{
+    font-size: 15px;
+}
+.top2{
+    width:75px; 
+    height:auto;
+}
+.top2{
+    vertical-align: text-top;
+}
+.middle2{
+    width:75px; 
+    height:auto;
+}
+.middle2{
+    vertical-align: middle;
+}
+.bottom{
+    width:75px; 
+    height:auto;
+}
+.ima2{
+    width:75px; 
+    height:auto;
+}
